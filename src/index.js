@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Main from "./Components/Main";
 import "./styles/stylesheet.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Main />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );

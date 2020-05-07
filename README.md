@@ -26,5 +26,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Step1 : npm install gh-pages <br />
 Step2 : Add following Scripts to the package.json file => "predeploy": "npm run build", "deploy": "gh-pages -d build" <br />
-Step3: Add homepage:"Github.io path" <br />
-Step4: Run npm run deploy<br />
+Step3 : Add homepage:"Github.io path" <br />
+Step4 : Run npm run deploy<br />
