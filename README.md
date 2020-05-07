@@ -21,3 +21,10 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `Deploying Application to Github Pages`
+
+Step1 : npm install gh-pages
+Step2 : Add following Scripts to the package.json file => "predeploy": "npm run build", "deploy": "gh-pages -d build"
+Step3: Add homepage:"Github.io path"
+Step4: Run npm run deploy

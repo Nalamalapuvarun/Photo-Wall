@@ -51,7 +51,7 @@ class Main extends Component {
       <div>
         <Route
           exact
-          path="/"
+          path="/Home"
           render={() => (
             <div>
               <Title title={"Photowall"} />
